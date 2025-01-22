@@ -1,0 +1,13 @@
+nav > ul >li{
+    display: inline;
+    margin: 18px;
+    padding: 20px;
+}
+nav  li> a{
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer{
+    margin-top: 30px;
+    text-align: center;
+}
