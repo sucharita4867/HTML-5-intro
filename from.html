@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>create a from</title>
+    <link rel="stylesheet" href="style/from.css">
     <style>
         label{
             display: block;
@@ -20,7 +21,7 @@
         <section>
             <h2>please fill up the from</h2>
             <form>
-                <label for="">your name:<input id="name" ="text" placeholder="your name">
+                <label for="name">your name:<input id="name" ="text" placeholder="your name">
                 </label>
                 <label for="email"> enter your email:<input id="email" placeholder="enter your email">
                 </label>
@@ -33,7 +34,8 @@
 
                 <fieldset>
                     <legend>Choose Drinks</legend>
-                    <label for="orenge juice"> 
+                    <label for="orenge juice">
+                        <input type="radio" name="" id=""> 
                         <input type="radio"name="drinks" id="orenge juice">Orenge juice
                     </label>
                     <label for="mango juice">
@@ -60,8 +62,10 @@
                     <textarea name="" id="" cols="" rows=5"></textarea>
                 </fieldset>
                 <br>
-                <p>
+                <div>
                 <input type="reset" value="reset">
+                </div>
+                <p>
                 <input type="submit"value="submit">
                 </p>
             </form>
