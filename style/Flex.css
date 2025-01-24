@@ -1,0 +1,12 @@
+.parent {
+    padding: 25px;
+    background-color: rgba(236, 229, 126, 0.788);
+    display: flex;
+    gap: 20px;
+}
+.child {
+    border:  2px solid rgba(96, 105, 105, 0.363);
+    background-color: rgba(151, 235, 235, 0.384);
+    padding: 20px;
+    font-size: 28px;
+}
