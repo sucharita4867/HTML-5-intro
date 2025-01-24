@@ -3,6 +3,11 @@
     background-color: rgba(236, 229, 126, 0.788);
     display: flex;
     gap: 20px;
+    justify-content: space-between;
+    /* height: 38px; */
+    align-items: end;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .child {
     border:  2px solid rgba(96, 105, 105, 0.363);
