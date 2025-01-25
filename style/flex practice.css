@@ -1,3 +1,25 @@
 h3{
-    text-align: center;
+    text-align: center ;
+    margin: 30px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: rgba(57, 135, 155, 0.452);
+}
+.father{
+    background-color: rgba(238, 182, 109, 0.651);
+    padding: 27px;
+    display: flex;
+
+}
+.boy{
+    border: 5px solid;
+}
+.mother{
+    background-color: rgba(67, 184, 63, 0.637);
+    display: flex;
+    padding: 25px;
+}
+.girl{
+    border: 3px solid;
+    
 }
