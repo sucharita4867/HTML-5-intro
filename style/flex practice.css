@@ -9,17 +9,31 @@ h3{
     background-color: rgba(238, 182, 109, 0.651);
     padding: 27px;
     display: flex;
-
+    gap: 20px;
+    justify-content: center;
+    height: 100px;
+    flex-direction: column;
+    align-items: end;
 }
 .boy{
     border: 5px solid;
+    background-color: rgba(159, 114, 201, 0.548);
+    padding: 20px;
+    font-size: 28px;
 }
-.mother{
+/* .mother{
     background-color: rgba(67, 184, 63, 0.637);
     display: flex;
     padding: 25px;
+    gap: 30px;
+     justify-content: center;
+     height: 100px;
+     flex-direction: column;
+     align-items: center;
 }
 .girl{
     border: 3px solid;
-    
-}
+    background-color: rgba(212, 102, 22, 0.603);
+    padding: 25px;
+    font-size: 30px;
+} */
